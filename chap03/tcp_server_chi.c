@@ -20,6 +20,10 @@ int main() {
 
 	// Timeout and end if no connection in 5 minutes or 300 seconds.
 
+	// TODO unanswered questions: 
+	// What other types of communications and parameters can I change besides TCP and UDP?
+	// What is the state of the art in designing a server in C/C++?
+
 	struct addrinfo hints;
 	memset(&hints, 0, sizeof(hints));
 	hints.ai_socktype = SOCK_STREAM;
